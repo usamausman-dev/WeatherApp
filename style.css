@@ -1,0 +1,50 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.bg-container{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    overflow-y: scroll;
+    color: wheat;
+}
+
+.glass{
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(30px);
+
+}
+
+.currentWeather{
+    height: 100vh;
+}
+
+.form-control{
+    background: transparent!important;
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.searchbtn{
+    background: rgba(255, 255, 255, 0.1)!important;
+}
+
+.table>:not(caption)>*>* {
+        border:none
+}
+
+.halfDiv{
+    height: 43vh;
+}
+
+.temp{
+    font-weight: 600;
+    font-size: 7em;
+}
